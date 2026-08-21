@@ -2,7 +2,7 @@
 
 Personal web security notes, payloads, and bypasses compiled during preparation for the **Burp Suite Certified Practitioner (BSCP)** certification.
 
-[![BSCP Certified](https://img.shields.io/badge/BSCP-Certified-orange?style=for-the-badge&logo=burpsuite)](https://portswigger.net/web-security/certification/verify?token=6310B95D46CB5A3B)
+[![BSCP Certified](https://img.shields.io/badge/BSCP-Certified-orange?style=for-the-badge&logo=burpsuite)](https://portswigger.net/web-security/e/c/6310b95d46cb5a3b)
 
 ---
 
