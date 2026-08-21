@@ -9,4 +9,4 @@ Personal web security notes, payloads, and bypasses compiled during preparation 
 ## 📂 Table of Contents
 
 ### 🛡️ Server-Side Vulnerabilities
-* [01. SQL Injection (SQLi)](server-side/01-SQL-injection.md)
+* [SQL Injection (SQLi)](server-side/01-SQL-injection.md)
