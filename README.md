@@ -1,13 +1,12 @@
 # Web Security Cheatsheets
 
+[![BSCP Certified](https://img.shields.io/badge/BSCP-Certified-orange?style=for-the-badge&logo=burpsuite)](https://portswigger.net/web-security/e/c/6310b95d46cb5a3b)
+
 Personal web security notes, payloads, and bypasses compiled during preparation for the **Burp Suite Certified Practitioner (BSCP)** certification.
 
 Having these notes saved me a ton of time during the exam. You can also use and tweak these payloads for your own exploits.
 
 > **Note:** I didn't include topics like [Business Logic Vulnerabilities](https://portswigger.net/web-security/logic-flaws) or [Race Conditions](https://portswigger.net/web-security/race-conditions) here. I recommend checking out the [PortSwigger Learning Paths](https://portswigger.net/web-security/learning-paths) for those.
-
-
-[![BSCP Certified](https://img.shields.io/badge/BSCP-Certified-orange?style=for-the-badge&logo=burpsuite)](https://portswigger.net/web-security/e/c/6310b95d46cb5a3b)
 
 ---
 
