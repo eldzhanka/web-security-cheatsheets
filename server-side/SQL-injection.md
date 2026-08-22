@@ -5,12 +5,12 @@ Compiled during PortSwigger Academy labs & BSCP preparation.
 ---
 
 ## 📌 Injection Types Covered
-* **UNION-based SQLi** (Extracting data via UNION operator)
-* **Error-based SQLi** (Triggering verbose database errors)
-* **Blind SQLi (Conditional responses)** (True/False boolean differential)
-* **Blind SQLi (Conditional errors)** (Triggering 500 status on True condition)
-* **Time-based Blind SQLi** (Introducing database delays)
-* **Out-of-Band (OAST / Collaborator)** (DNS/HTTP exfiltration via Burp Collaborator)
+1. [UNION-based SQLi](#1-union-based-attacks)
+2. [Error-based SQLi](#2-error-based-sqli)
+3. [Blind SQLi Conditional responses](#3-blind-sqli-conditional-responses)
+4. [Blind SQLi Conditional errors](#4-blind-sqli-conditional-errors)
+5. [Time-based Blind SQLi](#5-time-based-blind-sqli)
+6. [Out-of-Band (OAST / Collaborator)](#6-out-of-band)
 
 ---
 
@@ -65,7 +65,7 @@ Used when database errors are displayed in the HTTP response, leaking database i
 -------------------------------------------------
 
 
-### 3.Blind SQLi (Conditional responses)
+### 3. Blind SQLi Conditional responses
 Used when the application returns different content (e.g., "Welcome back" vs no message) based on True/False statements, but does not display SQL data
 
 **Testing for Boolean behavior**
@@ -82,7 +82,7 @@ TrackingId=xyz' AND SUBSTRING((SELECT password FROM users WHERE username='admini
 -------------------------------------------------
 
 
-### 4.Blind SQLi (Conditional errors)
+### 4. Blind SQLi Conditional errors
 Used when the response body never changes, but causing a database error (like division by zero) forces an HTTP 500 status code.
 
 **Oracle Conditional Error Payload**
@@ -98,7 +98,7 @@ TrackingId=xyz' UNION SELECT CASE WHEN (SUBSTR((SELECT password FROM users WHERE
 -------------------------------------------------
 
 
-### 5.Time-based Blind SQLi
+### 5. Time-based Blind SQLi
 Used when neither responses nor status codes change, exploit introduces time delays inside DB functions to confirm execution
 For this examples we will take PostgreSQL
 
@@ -127,7 +127,7 @@ MySQL:
 --------------------------------------------------
 
 
-### 6.Out-of-Band (OAST / Collaborator)
+### 6. Out-of-Band 
 Used in fully asynchronous or blind scenarios. Forces the database server to perform a DNS or HTTP lookup to a controlled Burp Collaborator domain
 
 **Oracle OAST Injection**
