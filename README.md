@@ -9,7 +9,13 @@ Personal web security notes, payloads, and bypasses compiled during preparation 
 ## 📂 Table of Contents
 
 ### 🛡️ Server-Side Vulnerabilities
-* [SQL Injection (SQLi)](server-side/SQL-injection.md)
-* [Authentication-Vulnerability](server-side/Authentication-Vulnerability.md)
-* [OS-Command-Injection](server-side/OS-Command-Injection.md)
+* [Authentication Vulnerability](server-side/Authentication-Vulnerability.md)
+* [OS Command Injection](server-side/OS-Command-Injection.md)
 * [Path traversal](server-side/Path-traversal-payloads.md)
+* [API Testing](server-side/API-testing.md)
+* [File Upload bypass](server-side/File-Upload-bypass.md)
+* [SQL Injection (SQLi)](server-side/SQL-injection.md)
+* [NoSQL Injection](server-side/NoSQLi.md)
+* [Server Side Request Forgery](server-side/SSRF.md)
+* [Web Cache Deception](server-side/WebCacheDeception.md)
+* [XXE](server-side/XXE.md)
