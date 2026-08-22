@@ -31,3 +31,10 @@ Having these notes saved me a ton of time during the exam. You can also use and 
 * [DOM based vulnerabilities](client-side/DOM-based-vulnerabilities.md)
 * [WebSocket vulnerabilities](client-side/WebSocket-Vulnerabilities.md)
 * [XSS](client-side/XSS.md)
+
+### 🛡️ Advanced Topics
+* [GraphQL API](advanced-topics/GraphQL-API.md)
+* [Insecure Deserialization](advanced-topics/Insecure-Deserialization.md)
+* [Server Side Template Injection](advanced-topics/Server-Side-Template-Injection.md)
+* [Web Cache Poisoning](advanced-topics/Web-Cache-Poisoning.md)
+* [Web LLM Attacks](Web-LLM-Attacks.md)
