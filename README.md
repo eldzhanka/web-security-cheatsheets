@@ -10,3 +10,6 @@ Personal web security notes, payloads, and bypasses compiled during preparation 
 
 ### 🛡️ Server-Side Vulnerabilities
 * [SQL Injection (SQLi)](server-side/SQL-injection.md)
+* [Authentication-Vulnerability](server-side/Authentication-Vulnerability.md)
+* [OS-Command-Injection](server-side/OS-Command-Injection.md)
+* [Path traversal](server-side/Path-traversal-payloads.md)
