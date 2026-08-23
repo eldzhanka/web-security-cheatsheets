@@ -24,14 +24,14 @@ Having these notes saved me a ton of time during the exam. You can also use and 
 * [Web Cache Deception](server-side/WebCacheDeception.md)
 * [XXE](server-side/XXE.md)
 
-### 🛡️ Client-Side Vulnerabilities
+### 🧑‍💻 Client-Side Vulnerabilities
 * [CORS](client-side/CORS.md)
 * [CSRF](client-side/CSRF.md)
 * [DOM based vulnerabilities](client-side/DOM-based-vulnerabilities.md)
 * [WebSocket vulnerabilities](client-side/WebSocket-Vulnerabilities.md)
 * [XSS](client-side/XSS.md)
 
-### 🛡️ Advanced Topics
+### 🔍 Advanced Topics
 * [GraphQL API](advanced-topics/GraphQL-API.md)
 * [Insecure Deserialization](advanced-topics/Insecure-Deserialization.md)
 * [Server Side Template Injection](advanced-topics/Server-Side-Template-Injection.md)
@@ -42,7 +42,7 @@ Having these notes saved me a ton of time during the exam. You can also use and 
 * [JWT Attacks](advanced-topics/JWT-Attacks.md)
 * [Prototype Pollution](advanced-topics/Prototype-Pollution.md)
 
-### 🛡️ Exploit Payloads & Bypasses
+### ❗️Exploit Payloads & Bypasses
 * [OS Command Injection Payloads](payloads/OS-Command-Injection.md)
 * [Path Traversal Payloads](payloads/Path-Traversal.md)
 * [XSS Payloads](payloads/XSS.md)
