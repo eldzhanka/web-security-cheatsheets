@@ -41,3 +41,9 @@ Having these notes saved me a ton of time during the exam. You can also use and 
 * [HTTP Request Smuggling](advanced-topics/HTTP-Request-Smuggling.md)
 * [JWT Attacks](advanced-topics/JWT-Attacks.md)
 * [Prototype Pollution](advanced-topics/Prototype-Pollution.md)
+
+### 🛡️ Exploit Payloads & Bypasses
+* [OS Command Injection Payloads](payloads/OS-Command-Injection.md)
+* [Path Traversal Payloads](payloads/Path-Traversal.md)
+* [XSS Payloads](payloads/XSS.md)
+* [SSTI Payloads](payloads/SSTI.md)
